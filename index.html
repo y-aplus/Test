@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>2048</h1>
+        <div class="scores">
+          <div class="score-box">
+            <span class="label">Score</span>
+            <span id="score">0</span>
+          </div>
+          <div class="score-box">
+            <span class="label">Best</span>
+            <span id="best">0</span>
+          </div>
+        </div>
+      </header>
+
+      <section class="controls">
+        <p>矢印キー / WASD / スワイプで操作できます。</p>
+        <button id="restart">リスタート</button>
+      </section>
+
+      <section class="board-wrapper">
+        <div id="board" class="board" aria-label="2048 game board"></div>
+        <div id="overlay" class="overlay hidden">
+          <p id="message"></p>
+          <button id="retry">もう一度遊ぶ</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
