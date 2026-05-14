@@ -9,6 +9,7 @@ interface VitestConfigExport extends UserConfig {
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Test/',
   plugins: [react()],
   test: {
     globals: true,
