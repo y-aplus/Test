@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { validateQuiz } from './quizValidation';
-import { Quiz } from '../types/Quiz';
+import type { Quiz } from '../types/Quiz';
 
 describe('validateQuiz', () => {
     const baseQuiz: Quiz = {

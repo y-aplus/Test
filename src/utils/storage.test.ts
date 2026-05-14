@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { getQuizzes, saveQuiz, deleteQuiz } from './storage';
-import { Quiz } from '../types/Quiz';
+import type { Quiz } from '../types/Quiz';
 
 describe('Storage Utils', () => {
     beforeEach(() => {

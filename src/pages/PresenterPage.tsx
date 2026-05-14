@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { getQuizzes } from '../utils/storage';
 import { formatQuestionForCopy, formatAnswerForCopy } from '../utils/quizFormatter';
 import type { Quiz } from '../types/Quiz';

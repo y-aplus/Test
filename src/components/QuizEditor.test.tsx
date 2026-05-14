@@ -1,8 +1,8 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import QuizEditor from './QuizEditor';
-import { Quiz } from '../types/Quiz';
+import type { Quiz } from '../types/Quiz';
 
 describe('QuizEditor Component', () => {
     it('renders form elements', () => {

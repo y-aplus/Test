@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getQuizzes, deleteQuiz } from '../utils/storage';
 import type { Quiz } from '../types/Quiz';
-import { Trash2, PlusCircle, Edit } from 'lucide-react';
+import { Trash2, PlusCircle } from 'lucide-react';
 
 const HomePage = () => {
     const [quizzes, setQuizzes] = useState<Quiz[]>([]);

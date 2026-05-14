@@ -1,4 +1,3 @@
-import React from 'react';
 import { Download } from 'lucide-react';
 import { getQuizzes } from '../utils/storage';
 import { exportQuizzesToJson, exportQuizzesToCsv } from '../utils/exportUtils';
